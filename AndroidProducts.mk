@@ -1,1 +1,3 @@
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/full_apollo.mk
+PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/device.mk \
+    $(LOCAL_DIR)/omni_apollo.mk
