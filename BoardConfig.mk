@@ -6,7 +6,7 @@
 
 # Kernel
 ifeq ($(TARGET_BUILD_VARIANT),eng)
-TARGET_KERNEL_CONFIG := apollo_defconfig-eng
+TARGET_KERNEL_CONFIG := apollo_eng_defconfig
 else
 TARGET_KERNEL_CONFIG := apollo_defconfig
 endif
